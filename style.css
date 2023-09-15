@@ -1,0 +1,146 @@
+/* styles.css */
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav {
+    max-width:auto;
+    margin:0;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position:relative;
+    
+}
+
+.logo h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;  
+}
+/* .logo li a{
+    font-size: 24px;
+    font-weight: bold;   
+} */
+#lists li a{
+    color:aliceblue;
+    text-decoration: none;
+}
+#lists li a:hover{
+    text-decoration: underline;
+    color:rgb(241, 250, 215);
+}
+ul {
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+     
+    background-size: cover;
+    background-position: center;
+    color:rgb(36, 1, 1);
+    text-align: center;
+    
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/*Section*/
+.section2 .row {
+    justify-content: space-around;
+}
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+.img-log{
+    height:700px;
+    width:500px;
+    margin:0;
+}
+.dd{
+    margin:0;
+}
+/* About Section Styles */
+.about {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-nav-item{
+    color:gray;
+    
+}
+.footer-nav-link{
+    font-size:1.2rem;
+    text-decoration: none;
+    color:royalblue;
+}
+.content{
+    font-size:1.2rem;
+    text-decoration: none;
+    color:royalblue;
+}
+
